@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Xiangming KA
+name: Xiangming Ka
 
 # Username (this should match the folder name)
 authors:
@@ -49,6 +49,9 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
+- icon: cv
+icon_pack: ai
+link: files/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "kaxm0124@163.com"
