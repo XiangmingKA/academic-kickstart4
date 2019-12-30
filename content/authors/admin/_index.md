@@ -23,7 +23,7 @@ bio: My research interests include Computer Graphics (Rendering), Game Developme
 interests:
 - Computer Graphics (hard-core Rendering)
 - Game Development
-- Computer Vision
+- Virtual Reality/Augmented Reality
 - Machine Learning
 
 education:
@@ -51,7 +51,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "kaxm0124@163.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -60,6 +60,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Welcome to Xiangming Ka's homepage!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a senior student who is majoring in Software Engineering at University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the Unreal Game Studio at UESTC http://www.ss.uestc.edu.cn/studio.do?id=491. My research fields are Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of visual arts--Game Design, Game Culture, Movies, and Photography.
