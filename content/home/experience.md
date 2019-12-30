@@ -22,8 +22,8 @@ date_format = "Jan 2006"
   company = "EO-VISION Digital Technology Co., Ltd."
   company_url = ""
   location = "Beijing"
-  date_start = "2019-7"
-  date_end = "2019-9"
+  date_start = "2019-7-1"
+  date_end = "2019-9-6"
   description = """
   Responsibilities include:
   
