@@ -19,7 +19,7 @@ image_preview = "featured.jpeg"
 tags = ["Computer Graphics","Rendering"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/XiangmingKA/RenderMan"
+external_link = ""
 
 # [header]
 # image = "MIPS_CPU/FPGA.png"
@@ -27,14 +27,12 @@ external_link = "https://github.com/XiangmingKA/RenderMan"
 +++
 
 # Overview
-Based on gate-level circuit design, we implemented a 32 bits CPU in Verilog. It contains the main parts of a fully
-functional pipelined CPU. Then we embedded deep pipeline into the ALU. <br>
-We ran 100 8-point
-FFT algorithm on it, And tested the project on FPGA (We used Basys, which is specifically designed for Vivado Design Suite). It is proved to be efficient 
-and reliable. <br>
+Based on the RenderMan rendering API Standard by Pixar. It contains the main parts of a fully
+functional RenderMan API. The rendering pipeline is based on the REYES structure. <br>
+I independently accomplish it under the guidance of Prof. Pradeep Sen <br>
 
 The main work for the project is as follows: <br>
-1. The eight-staged pipelined CPU design and implementation, including the control part as well as data path. <br>
+1. Read the . <br>
 2. High efficiency assembly language of FFT. <br>
 3. Hazard detection and the test of FFT on the simulated CPU.
 
