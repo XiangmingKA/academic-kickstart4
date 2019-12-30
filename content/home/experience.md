@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Internship"
-  company = "EO-VISION"
+  company = "EO-VISION Digital Technology Co., Ltd."
   company_url = ""
   location = "Beijing"
   date_start = "2019-07-02"
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Assistant Researcher"
-  company = "processing and classifying electroencephalogram using Machine Learning"
+  company = "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology"
   company_url = ""
   location = "Shenzhen"
   date_start = "2018-10-01"
