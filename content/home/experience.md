@@ -22,8 +22,8 @@ date_format = "Jan 2006"
   company = "EO-VISION Digital Technology Co., Ltd."
   company_url = ""
   location = "Beijing"
-  date_start = "2018-10"
-  date_end = "2018-10"
+  date_start = "2019-7-2"
+  date_end = "2019-9-6"
   description = """
   Responsibilities include:
   
@@ -37,8 +37,8 @@ date_format = "Jan 2006"
   company = "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology"
   company_url = ""
   location = "Shenzhen"
-  date_start = "2018-10"
-  date_end = ""
+  date_start = "2018-10-1"
+  date_end = "2018-10-15"
   description = """We processed and classified electroencephalogram using Machine Learning."""
 
 +++
