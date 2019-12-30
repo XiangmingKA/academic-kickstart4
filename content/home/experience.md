@@ -29,12 +29,11 @@ date_format = "Jan 2006"
   
   * Unity3D VR developments
   * Interactive touch screen application developments
-  
   """
 
 [[experience]]
   title = "Assistant researcher"
-  company = "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology"
+  company = "Brain Cognition and Brain Disease Institute"
   company_url = ""
   location = "Shenzhen"
   date_start = "2018-10-1"
