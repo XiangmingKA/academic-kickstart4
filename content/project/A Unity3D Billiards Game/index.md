@@ -4,7 +4,7 @@ date = 2018-11-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "A Unity3D Tank Game"
+title = "A Unity3D Billiards Game"
 
 # Project summary to display on homepage.
 summary = """
