@@ -24,14 +24,14 @@ subtitle = ""
    [[content.filter_button]]
      name = "All"
      tag = "*"
+     
+   [[content.filter_button]]
+     name = "Computer Graphics"
+     tag = "Computer Graphics"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
-  
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+   [[content.filter_button]]
+     name = "Game Development"
+     tag = "Game Development"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
