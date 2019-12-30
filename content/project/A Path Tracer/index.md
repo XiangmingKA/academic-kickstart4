@@ -12,7 +12,7 @@ summary = """
  I'm responsible for all the code and pipeline design
  """
  
-image_preview = "img/Scene-Test5.ppm"
+image_preview = "img/Scene-Test5.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Computer Graphics", "Rendering"]`
@@ -22,7 +22,7 @@ tags = ["Computer Graphics","Rendering"]
 external_link = ""
 
 # [header]
-# image = "featured.jpeg"
+# image = "img/Scene-Test5.jpg"
 
 +++
 
@@ -43,9 +43,9 @@ The main workflow of the program is as follows: <br>
 
 # Test Scenes
 
-![Test Scene 1](img/Scene2-Test5.ppm)
-![Test Scene 2](img/Scene2-Test4.ppm)
-![Test Scene 3](img/Scene-Test4.ppm)
+![Test Scene 1](img/Scene2-Test5.jpg)
+![Test Scene 2](img/Scene-Test3.jpg)
+![Test Scene 3](img/DepthOfField.jpg)
 
 
 
