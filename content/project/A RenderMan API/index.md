@@ -12,7 +12,7 @@ summary = """
  I'm responsible for all the code and pipeline design
  """
  
-# image_preview = "feature.jpeg"
+image_preview = "featured.jpeg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Computer Graphics", "Rendering"]`
