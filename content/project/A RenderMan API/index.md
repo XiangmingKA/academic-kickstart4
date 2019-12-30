@@ -41,7 +41,7 @@ The main process of the program is as follows: <br>
 ## Main Rendering Pipeline Design
 The overall rendering pipeline are based on the Renderman interface standard. I implemented most parts of the Renderman pipeline descripted as followed:
 <div style="text-align: center">
-<img src="img/RM1.jpeg"/>
+<img src="img/RM1.jpg"/>
 </div>
 And the camera setting is descripted below, which is different as OpenGL.
 ![Camera setting](img/RM3.jpeg)
