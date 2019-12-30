@@ -49,19 +49,19 @@ And the camera setting is descripted below, which is different as OpenGL.
 
 ## Rasterizer
 For short, it is able to set up a rudimentary graphics state, render primitives with bound shaders, and determine the visibility using a z-buffer algorithm. Rendering primitives in a Reyes architecture involves dicing them up into a micropolygon grid, shading the grid, and then busting up the grid into micropolygons that are bounded and sampled into screen space locations. 
-![Renderman quadrics](img/RM5.jpeg)
+![Renderman quadrics](img/RM5.jpg)
 ### Textures
 I used OpenCV to read the image file and conveyed it to textures. Then, I use the (u,v) coordinates (which are parameterized from 0 to 1) as the (s,t) coordinates for the texture lookup.
-![Textures](img/feature.jpeg)
+![Textures](img/feature.jpg)
 ### Transparency
 I kept a sorted linked list at each sample in the framebuffer, where micropolygons are sorted with respect to their distance from the camera. When an opaque object is inserted into the list, it clears out the remaining items from the rest of the list, because that opaque sample effectively blocks the rest of the samples. 
 ![Transparency](img/RM4.png)
 
 # Test Scenes
 
-![Test Scene 1](img/RM6.jpeg)
-![Test Scene 2](img/RM7.jpeg)
-![Test Scene 3](img/feature.jpeg)
+![Test Scene 1](img/RM6.jpg)
+![Test Scene 2](img/RM7.jpg)
+![Test Scene 3](img/feature.jpg)
 
 
 
