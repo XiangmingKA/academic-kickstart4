@@ -27,8 +27,8 @@ external_link = ""
 +++
 
 # Overview
-This is a Monte-Carlo rendering systems that supports global illumination, interpolating parameters, texture mapping, shaders, bounding volume hierarchy accelerating, and depth of field rendering<br>
-I independently accomplish it under the guidance of Prof. Pradeep Sen <br>
+This is a Monte-Carlo rendering systems that supports global illumination, interpolating parameters, texture mapping, bounding volume hierarchy accelerating, and depth of field effected rendering, etc..<br>
+I independently accomplish it under the guidance of Prof. Pradeep Sen. <br>
 
 The main workflow of the program is as follows: <br>
 1. Implement a basic Whitted-style ray tracer. <br>
@@ -84,6 +84,6 @@ Also, I added a basic volumetic scattering effect estimater in this path tracer 
 ![Test Scene 1](img/Final4.jpg)
 ![Test Scene 1](img/Final5.jpg)
 
-For detail information and source code: https://github.com/XiangmingKA/PathTracer
+For more information and source code: https://github.com/XiangmingKA/PathTracer
 ![Test Scene 1](img/Scene-Test4.jpg)
 
