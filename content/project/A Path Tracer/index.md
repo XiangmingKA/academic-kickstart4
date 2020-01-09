@@ -72,7 +72,7 @@ Now, here is the most important part!
 A basic Monte-Carlo estimater was implemented to sample radiance of the hemisphere.
 ![Test Scene 1](img/PathTracing.jpg)
 By intergrating the radiance coming from the hemisphere, we could estimate the radiance of inderict illumination. So far, we can get the global illuminated scences as followed.
-
+![Test Scene 1](img/PathTracing2.jpg)
 
 ## Final thesis
 

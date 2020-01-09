@@ -27,25 +27,37 @@ external_link = ""
 +++
 
 # Overview
-This is a Monte-Carlo rendering systems that supports global illumination, interpolating parameters, texture mapping, shaders, bounding volume hierarchy accelerating, and depth of field rendering<br>
-I independently accomplish it under the guidance of Prof. Pradeep Sen <br>
+This is a third-person multiplayer tank shooting game developed in Unity 3D.
+I am fully responsible for all the game development and design as the course project in Game Engine Architecture at UESTC in 2018.
 
-The main workflow of the program is as follows: <br>
-1. Implement a basic Whitted-style ray tracer. <br>
-2. Improved it to support interpolating parameters, texture mapping, shaders.<br>
-3. Accelerate the rendering of complex scene by optimize the sphere and triangle intersection routines and add acceleration data structures.
-4. Improve it to support Monte-Carlo integration (pixel antialiasing by integrating with a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera).
-5. Add path tracing to support global illmination.
+It showcased my abilities to:
+1. C# programming for Unity 3D.
+2. Set up terrain, vegetation, and scenes in Unity 3D.
+3. Multiplayer game model programming.
+4. Complex modeling.
+
+This project was completed when I was a sophomore. I can do much better now;)
 
 # Features
-## Main Rendering Pipeline Design
+## Game scenes
 
+The scene of this game is based on the campus of UESTC. And the building models were created by me in another course: Advanced Modeling Technology.
+![Test Scene 1](img/image2.jpg)
+## Level design
 
-# Test Scenes
+While game design wasn't the focus area of this project, I implemented a simple multiplayer level design: Two players are born at spawn point A & B and begin to fight!
+![Test Scene 1](img/image3.jpg)
 
-![Test Scene 1](img/Scene2-Test5.jpg)
-![Test Scene 2](img/Scene-Test3.jpg)
-![Test Scene 3](img/DepthOfField.jpg)
+## Game mechanisms
 
+In the beginning og this game, players will be showen the following scene. Players can choose to host a new game or join others' game by entering the local host number.
+![Test Scene 1](img/image5.jpg)
+
+Players can move and rotate their tanks by pressing W A S D. 
+![Test Scene 1](img/image6.jpg)
+
+By entering "space", they can fire a shell. The field of fire depends on the time players pressing "space" demonstrated as following:
+![Test Scene 1](img/image7.jpg)
+![Test Scene 1](img/image9.jpg)
 
 
