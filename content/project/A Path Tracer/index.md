@@ -38,7 +38,18 @@ The main workflow of the program is as follows: <br>
 5. Add path tracing to support global illmination.
 
 # Features
-## Main Rendering Pipeline Design
+## Ray Tracing
+
+The first step of this system is to implement a basic Whitted-style ray tracer. Features like reflection, refraction, and shadow are supported.
+![Reflections & Shadows](img/Scene-Test3.jpg)
+![Reflections & Refractions](img/Scene-Test2.jpg)
+
+Then, I Improved it to support more shaders, such as texture mapping and interpolating parameters.
+![Shaders](img/Shaders.jpg)
+
+
+
+
 
 
 # Test Scenes
