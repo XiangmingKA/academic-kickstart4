@@ -12,7 +12,7 @@ summary = """
  I'm responsible for all the code and game design
  """
  
-image_preview = "img/Scene-Test5.jpg"
+image_preview = "img/featured.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Game Development", "Unity3D"]`
@@ -22,7 +22,7 @@ tags = ["Game Development","Unity3D"]
 external_link = ""
 
 # [header]
-# image = "img/Scene-Test5.jpg"
+# image = "img/featured.jpg"
 
 +++
 
