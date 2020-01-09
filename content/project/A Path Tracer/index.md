@@ -40,12 +40,35 @@ The main workflow of the program is as follows: <br>
 # Features
 ## Ray Tracing
 
-The first step of this system is to implement a basic Whitted-style ray tracer. Features like reflection, refraction, and shadow are supported.
+The first step of this system is to implement a basic Whitted-style ray tracer. Features like reflection, refraction, and shadowing are supported.
 ![Reflections & Shadows](img/Scene-Test3.jpg)
 ![Reflections & Refractions](img/Scene-Test2.jpg)
 
 Then, I Improved it to support more shaders, such as texture mapping and interpolating parameters.
 ![Shaders](img/Shaders.jpg)
+
+To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been fastened by more than 50x.
+A complex scene rendered within 2 minutes:
+![Test Scene 1](img/Scene2-Test5.jpg)
+
+Now, it is the time to implement path tracing!
+
+## Monte-Carlo integration & Path Tracing
+
+To support pixel antialiasing, I implemented a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera illustrated as followed:
+![Antialiasing1](img/Antialiasing1.jpg)
+
+As for the depth-of-field effect, I simulated an imaginary thin lens with a fixed aperture to produce a nice depth-of-field effect, where some objects will be sharp but others blurry.
+![DepthOfField1](img/DepthOfField1.jpg)
+
+Original scene:
+![Test Scene 1](img/Scene2-Test4.jpg)
+
+Depth-of-field effected scence:
+![Test Scene 1](img/DepthOfField.jpg)
+
+
+
 
 
 
