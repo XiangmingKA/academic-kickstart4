@@ -48,7 +48,7 @@ Then, I Improved it to support more shaders, such as texture mapping and interpo
 ![Shaders](img/Shaders.jpg)
 
 To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been fastened by more than 50x.
-[Test Scene 1](img/BVH.jpg)
+![Test Scene 1](img/BVH.jpg)
 A complex scene rendered within 2 minutes:
 ![Test Scene 1](img/Scene2-Test5.jpg)
 
@@ -78,22 +78,12 @@ By intergrating the radiance coming from the hemisphere, we could estimate the r
 
 Also, I added a basic volumetic scattering effect estimater in this path tracer and wrote a final paper in SIGGRAPH tamplate which discussed principles of volumetic rendering and path tracing.
 
-![Test Scene 1](img/Final.pdf)
+![Test Scene 1](img/Final1.jpg)
+![Test Scene 1](img/Final2.jpg)
+![Test Scene 1](img/Final3.jpg)
+![Test Scene 1](img/Final4.jpg)
+![Test Scene 1](img/Final5.jpg)
 
 For detail information and source code: https://github.com/XiangmingKA/PathTracer
 ![Test Scene 1](img/Scene-Test4.jpg)
-
-
-
-
-
-
-
-# Test Scenes
-
-![Test Scene 1](img/Scene2-Test5.jpg)
-![Test Scene 2](img/Scene-Test3.jpg)
-![Test Scene 3](img/DepthOfField.jpg)
-
-
 
