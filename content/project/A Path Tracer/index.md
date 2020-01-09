@@ -41,13 +41,14 @@ The main workflow of the program is as follows: <br>
 ## Ray Tracing
 
 The first step of this system is to implement a basic Whitted-style ray tracer. Features like reflection, refraction, and shadowing are supported.
-![Reflections & Shadows](img/Scene-Test3.jpg)
+![Reflections & Shadows](img/Scene-Test5.jpg)
 ![Reflections & Refractions](img/Scene-Test2.jpg)
 
 Then, I Improved it to support more shaders, such as texture mapping and interpolating parameters.
 ![Shaders](img/Shaders.jpg)
 
 To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been fastened by more than 50x.
+[Test Scene 1](img/BVH.jpg)
 A complex scene rendered within 2 minutes:
 ![Test Scene 1](img/Scene2-Test5.jpg)
 
@@ -67,7 +68,20 @@ Original scene:
 Depth-of-field effected scence:
 ![Test Scene 1](img/DepthOfField.jpg)
 
+Now, here is the most important part! 
+A basic Monte-Carlo estimater was implemented to sample radiance of the hemisphere.
+![Test Scene 1](img/PathTracing.jpg)
+By intergrating the radiance coming from the hemisphere, we could estimate the radiance of inderict illumination. So far, we can get the global illuminated scences as followed.
 
+
+## Final thesis
+
+Also, I added a basic volumetic scattering effect estimater in this path tracer and wrote a final paper in SIGGRAPH tamplate which discussed principles of volumetic rendering and path tracing.
+
+![Test Scene 1](img/Final.pdf)
+
+For detail information and source code: https://github.com/XiangmingKA/PathTracer
+![Test Scene 1](img/Scene-Test4.jpg)
 
 
 
