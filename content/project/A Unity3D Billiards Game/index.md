@@ -12,7 +12,7 @@ summary = """
  I'm responsible for all the code and game design
  """
  
-image_preview = "img/Scene-Test5.jpg"
+image_preview = "featured.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Game Development", "Unity3D"]`
@@ -27,25 +27,28 @@ external_link = ""
 +++
 
 # Overview
-This is a Monte-Carlo rendering systems that supports global illumination, interpolating parameters, texture mapping, shaders, bounding volume hierarchy accelerating, and depth of field rendering<br>
-I independently accomplish it under the guidance of Prof. Pradeep Sen <br>
+This is a third-person multiplayer tank shooting game developed in Unity 3D.
+I am fully responsible for all the game development and design as the course project in Game Engine Architecture at UESTC in 2018.
 
-The main workflow of the program is as follows: <br>
-1. Implement a basic Whitted-style ray tracer. <br>
-2. Improved it to support interpolating parameters, texture mapping, shaders.<br>
-3. Accelerate the rendering of complex scene by optimize the sphere and triangle intersection routines and add acceleration data structures.
-4. Improve it to support Monte-Carlo integration (pixel antialiasing by integrating with a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera).
-5. Add path tracing to support global illmination.
+This project was completed when I was a sophomore. I can do much better now;)
 
 # Features
-## Main Rendering Pipeline Design
 
+## Scene
 
-# Test Scenes
+The scene of this game is a classic pool table, with a spotlight constantly fall on the white ball.
+![Test Scene 1](img/image1.jpg)
+## UI
 
-![Test Scene 1](img/Scene2-Test5.jpg)
-![Test Scene 2](img/Scene-Test3.jpg)
-![Test Scene 3](img/DepthOfField.jpg)
+I Add a basic UI in this game, showing the current player name and his/her score. At the bottom of the scene, there is a pointer showing the strength of batting.
+![Test Scene 1](img/image3.jpg)
 
+## Game manipulation
 
+Players can control the club to rotate towards up, down, right, and left by pressing WASD.
+![Test Scene 1](img/image2.jpg)
 
+# Video
+<video src="./Demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
+Your browser does not support the video tag.
+</video>
