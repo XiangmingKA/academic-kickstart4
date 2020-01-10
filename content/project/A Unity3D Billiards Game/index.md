@@ -46,6 +46,7 @@ I Add a basic UI in this game, showing the current player name and his/her score
 ## Game manipulation
 
 Players can control the club to rotate towards up, down, right, and left by pressing WASD.
+By pressing "space", players can accumulate the strength of batting.
 ![Test Scene 1](img/image2.jpg)
 
 # Video
