@@ -36,9 +36,9 @@ Your browser does not support the video tag.
 
 ## My Work
 I am responsible for the plot design, part of the level design, and part of the Unreal blue print development--especially in the visual effects.
-![Test Scene 1](img/image10.jpg)
+![Test Scene 1](img/image10.png)
 Early stage level design:
-![Test Scene 1](img/image4.jpg)
+![Test Scene 1](img/image4.png)
 
 # Features
 ## Story
@@ -60,15 +60,15 @@ For instance, in the normal perseptive players cannot spot the mysterious woman 
 ## Level design
 
 In the level design, we learnt some experience from some famous horror games like P.T. and Silent Hill. And we are inspired by Rainbow Six to use surveillance cameras as a assist device, which brought gameplays such as sovle a puzzle by switching through mutiple cameras.
-![Test Scene 1](img/image8.jpg)
+![Test Scene 1](img/image8.png)
 The main idea of our level design is to create some narrow, linear, and intersected channels that create a scene of imprisonment.
-![Test Scene 1](img/image11.jpg)
+![Test Scene 1](img/image11.png)
 
 There are many types of impediments that players need to constantly try new methods to get through them--push the box, gather the information separated in the scene, and find a way and time to snake through the way under monitoring zombies, etc..
 A demo scene showing our machinery:
-![Test Scene 1](img/image6.jpg)
+![Test Scene 1](img/image6.png)
 
-![Test Scene 1](img/image7.jpg)
+![Test Scene 1](img/image7.png)
 
 That's all I can tell currently because I don't want to spoil the story. The full version game is coming soon! Check out https://store.steampowered.com/app/942010/The_3rd_Building/
 
