@@ -29,14 +29,16 @@ external_link = ""
 # Overview
 This is the star game project at the Unreal Studio at UESTC. Designed and developed by Kaiyan Zhang, Wenhan Hao, and me (also known as the F-Greetings team), we decided to create a horror game based on the campus of UESTC. To be specific, this is the first double perspectives and double storylines stealth game in history. We are planning to publish this game in a completed version in the coming months. There is a demo already published on Steam: https://store.steampowered.com/app/942010/The_3rd_Building/
 
-## My Work
-I am responsible for the plot design, part of the level design, and part of the Unreal blue print development--especially in the visual effects.
-
 # Video
 <video src="./Demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
 Your browser does not support the video tag.
 </video>
 
+## My Work
+I am responsible for the plot design, part of the level design, and part of the Unreal blue print development--especially in the visual effects.
+![Test Scene 1](img/image10.jpg)
+Early stage level design:
+![Test Scene 1](img/image4.jpg)
 
 # Features
 ## Story
@@ -51,7 +53,22 @@ In the first chapter, players act in the first-person perspective as the "produc
 Currently, the game has two storylines, "The Third Building" and "The Fourth Man", playing through the first-person and third-person perspectives, respectively. The "The Third Building" part is the outer line, the real protagonist, a college student independent game developer, he is developing an independent horror game "The Third Building", and some incredible things happened during the development process. The "Fourth Man" part is one of the inner lines extended by the outer line. The protagonist is a mysterious woman. She has the flexible climbing ability and swinging rope ability. She was guided by some mysterious power to the beginning of The Third Building. There are scenes that are common to the inner and outer lines, and there are scenes that belong to one plotline alone. And if you encounter some difficulties in a specific storyline, you can try looking for clues in another line. The two lines are intertwined together to form the story of the "The Third Building"
 
 ![Test Scene 1](img/image3.jpg)
+In the game, players can use multiple perseptives--first-person, night vision, and surveillance cameras. To solve puzzzles as well as to find and avoid enemies, players need to change their types of perseptive.
+For instance, in the normal perseptive players cannot spot the mysterious woman in the first chapter. By equipping the night vision, players can easily find out her, thus avoiding being caught.
+![Test Scene 1](img/image2.jpg)
 
+## Level design
+
+In the level design, we learnt some experience from some famous horror games like P.T. and Silent Hill. And we are inspired by Rainbow Six to use surveillance cameras as a assist device, which brought gameplays such as sovle a puzzle by switching through mutiple cameras.
+![Test Scene 1](img/image8.jpg)
+The main idea of our level design is to create some narrow, linear, and intersected channels that create a scene of imprisonment.
+![Test Scene 1](img/image11.jpg)
+
+There are many types of impediments that players need to constantly try new methods to get through them--push the box, gather the information separated in the scene, and find a way and time to snake through the way under monitoring zombies, etc..
+A demo scene showing our machinery:
+![Test Scene 1](img/image6.jpg)
+
+![Test Scene 1](img/image7.jpg)
 
 That's all I can tell currently because I don't want to spoil the story. The full version game is coming soon! Check out https://store.steampowered.com/app/942010/The_3rd_Building/
 
