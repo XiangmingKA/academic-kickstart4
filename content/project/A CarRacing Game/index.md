@@ -35,7 +35,7 @@ I am fully responsible for all the blue print programming and part of the scene 
 
 ## Scene
 
-The scene of this game is a race track in a desert. We set up several swerves with different angle to test players' skills.
+The scene of this game is a race track in a desert. We set up several swerves with different angles to test players' skills.
 ![Test Scene 1](img/image1.png)
 ## UI
 
