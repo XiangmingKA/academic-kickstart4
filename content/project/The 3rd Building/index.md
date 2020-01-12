@@ -46,8 +46,8 @@ This game is based on true stories from the producers. Every school has a haunti
 ![Test Scene 1](img/image1.jpg)
 
 In the first chapter, players act in the first-person perspective as the "producer" who is developing a horror game--sounds familiar ha?--and encountering some horrible things. To escape the 3rd building, players need to snake out of the building while avoiding being caught by zombies and solve the puzzles.
-![Test Scene 1](img/image2.jpg)
 
+![Test Scene 1](img/image9.png)
 ## The first-person / third-person perspective
 
 Currently, the game has two storylines, "The Third Building" and "The Fourth Man", playing through the first-person and third-person perspectives, respectively. The "The Third Building" part is the outer line, the real protagonist, a college student independent game developer, he is developing an independent horror game "The Third Building", and some incredible things happened during the development process. The "Fourth Man" part is one of the inner lines extended by the outer line. The protagonist is a mysterious woman. She has the flexible climbing ability and swinging rope ability. She was guided by some mysterious power to the beginning of The Third Building. There are scenes that are common to the inner and outer lines, and there are scenes that belong to one plotline alone. And if you encounter some difficulties in a specific storyline, you can try looking for clues in another line. The two lines are intertwined together to form the story of the "The Third Building"
