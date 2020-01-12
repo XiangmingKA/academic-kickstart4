@@ -27,7 +27,7 @@ external_link = ""
 +++
 
 # Overview
-This is a third-person multiplayer tank shooting game developed in Unity 3D.
+This is a third-person multiplayer tank shooting game developed with Unity 3D.
 I am fully responsible for all the game development and design as the course project in Game Engine Architecture at UESTC in 2018.
 
 It showcased my abilities to:

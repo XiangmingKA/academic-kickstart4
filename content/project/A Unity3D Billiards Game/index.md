@@ -27,7 +27,7 @@ external_link = ""
 +++
 
 # Overview
-This is a third-person multiplayer tank shooting game developed in Unity 3D.
+This is a third-person multiplayer tank shooting game developed with Unity 3D.
 I am fully responsible for all the game development and design as the course project in Game Engine Architecture at UESTC in 2018.
 
 This project was completed when I was a sophomore. I can do much better now;)
@@ -40,7 +40,7 @@ The scene of this game is a classic pool table, with a spotlight constantly fall
 ![Test Scene 1](img/image1.jpg)
 ## UI
 
-I Add a basic UI in this game, showing the current player name and his/her score. At the bottom of the scene, there is a pointer showing the strength of batting.
+I added a basic UI in this game, showing the current player name and his/her score. At the bottom of the scene, there is a pointer showing the strength of batting.
 ![Test Scene 1](img/image3.jpg)
 
 ## Game manipulation

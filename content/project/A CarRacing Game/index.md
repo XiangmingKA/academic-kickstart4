@@ -4,7 +4,7 @@ date = 2018-11-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "A CarRacing Game"
+title = "A Car Racing Game"
 
 # Project summary to display on homepage.
 summary = """
@@ -39,7 +39,7 @@ The scene of this game is a race track in a desert. We set up several swerves wi
 ![Test Scene 1](img/image1.png)
 ## UI
 
-I Add a basic UI in this game, showing the current speed of the car. And there is a End text in the beginning and the ending of the game showing player's time of passing the game..
+I added a basic UI in this game, showing the current speed of the car. And there is a End text in the beginning and the ending of the game showing player's time of passing the game..
 ![Test Scene 1](img/image3.png)
 
 ## Game manipulation
