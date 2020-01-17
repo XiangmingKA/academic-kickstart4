@@ -8,7 +8,7 @@ title = "4. A Unity3D Tank Game"
 
 # Project summary to display on homepage.
 summary = """
- This is the curriculum project at UESTC.<br>
+ This is a curriculum project at UESTC.<br>
  I'm responsible for all the code and game design
  """
  
@@ -31,8 +31,8 @@ This is a third-person multiplayer tank shooting game developed with Unity 3D.
 I am fully responsible for all the game development and design as the course project in Game Engine Architecture at UESTC in 2018.
 
 It showcased my abilities to:
-1. C# programming for Unity 3D.
-2. Set up terrain, vegetation, and scenes in Unity 3D.
+1. C# Programming for Unity 3D.
+2. Set up the terrain, vegetation, and scenes in Unity 3D.
 3. Multiplayer game model programming.
 4. Complex modeling.
 

@@ -8,7 +8,7 @@ title = "1. A Path Tracer"
 
 # Project summary to display on homepage.
 summary = """
- This is the curriculum project for CS285 Advanced Image Synthesis at UCSB.<br>
+ This is the curriculum project in CS285 Advanced Image Synthesis at UCSB.<br>
  I'm responsible for all the code and pipeline design
  """
  
@@ -27,15 +27,15 @@ external_link = ""
 +++
 
 # Overview
-This is a Monte-Carlo rendering systems that supports global illumination, interpolating parameters, texture mapping, bounding volume hierarchy accelerating, and depth of field effected rendering, etc..<br>
-I independently accomplish it under the guidance of Prof. Pradeep Sen. <br>
+This is a Monte-Carlo rendering system that supports global illumination, interpolating parameters, texture mapping, bounding volume hierarchy accelerating, and depth of field effected rendering, etc..<br>
+I independently accomplished it under the guidance of Prof. Pradeep Sen. <br>
 
 The main workflow of the program is as follows: <br>
 1. Implement a basic Whitted-style ray tracer. <br>
 2. Improved it to support interpolating parameters, texture mapping, shaders.<br>
-3. Accelerate the rendering of complex scene by optimize the sphere and triangle intersection routines and add acceleration data structures.
+3. Accelerate the rendering of complex scenes by optimize the sphere and triangle intersection routines and add acceleration data structures.
 4. Improve it to support Monte-Carlo integration (pixel antialiasing by integrating with a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera).
-5. Add path tracing to support global illmination.
+5. Add path tracing to support global illumination.
 
 # Features
 ## Ray Tracing
@@ -47,7 +47,7 @@ The first step of this system is to implement a basic Whitted-style ray tracer. 
 Then, I Improved it to support more shaders, such as texture mapping and interpolating parameters.
 ![Shaders](img/Shaders.jpg)
 
-To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been fastened by more than 50x.
+To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been accelerated by more than 50x.
 ![Test Scene 1](img/BVH.jpg)
 A complex scene rendered within 2 minutes:
 ![Test Scene 1](img/Scene2-Test5.jpg)
@@ -65,7 +65,7 @@ As for the depth-of-field effect, I simulated an imaginary thin lens with a fixe
 Original scene:
 ![Test Scene 1](img/Scene2-Test4.jpg)
 
-Depth-of-field effected scence:
+Depth-of-field effected scene:
 ![Test Scene 1](img/DepthOfField.jpg)
 
 Now, here is the most important part! 

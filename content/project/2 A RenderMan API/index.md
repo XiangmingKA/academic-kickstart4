@@ -8,7 +8,7 @@ title = "2. A RenderMan Graphics Interface"
 
 # Project summary to display on homepage.
 summary = """
- This is the curriculum project for CS285 Advanced Image Synthesis at UCSB.<br>
+ This is the curriculum project in CS285 Advanced Image Synthesis at UCSB.<br>
  I'm responsible for all the code and pipeline design
  """
  
@@ -28,12 +28,12 @@ external_link = ""
 
 # Overview
 This is a Reyes-style, micropolygon-based architecture that processes input through a RenderMan-like C interface. It contains the main parts of a fully functional RenderMan interface.  <br>
-I independently accomplish it under the guidance of Prof. Pradeep Sen <br>
+I independently accomplished it under the guidance of Prof. Pradeep Sen <br>
 
 The main process of the program is as follows: <br>
 1. Read the Metafile format RIB (Renderman Interface Bytestream) . <br>
-2. Initialize framebuffer, viewer position, world coorginate system, etc..<br>
-3. Start the scene despription.
+2. Initialize framebuffer, viewer position, world coordinate system, etc..<br>
+3. Start the scene description.
 4. Rasterize scene objects.
 5. End the frame.
 

@@ -28,7 +28,7 @@ external_link = ""
 
 # Overview
 This is a third-person car racing game developed with Unreal.
-I am fully responsible for all the blue print programming and part of the scene seeting in Corporate Cooperation Course at UESTC in 2019.
+I am fully responsible for all the blue print programming and part of the scene-setting in Corporate Cooperation Course at UESTC in 2019.
 
 
 # Features
@@ -39,11 +39,11 @@ The scene of this game is a race track in a desert. We set up several swerves wi
 ![Test Scene 1](img/image1.png)
 ## UI
 
-I added a basic UI in this game, showing the current speed of the car. And there is a End text in the beginning and the ending of the game showing player's time of passing the game..
+I added a basic UI in this game, showing the current speed of the car. And there is an End text in the beginning and the ending of the game showing player's time of passing the game.
 ![Test Scene 1](img/image3.png)
 
 ## Game manipulation
 
-By pressing W A S D, players can speed up or brake the car and trun left/right.
+By pressing W A S D, players can speed up or brake the car and turn left/right.
 ![Test Scene 1](img/image2.png)
 

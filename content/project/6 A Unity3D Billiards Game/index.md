@@ -8,7 +8,7 @@ title = "6. A Unity3D Billiards Game"
 
 # Project summary to display on homepage.
 summary = """
- This is the curriculum project at UESTC.<br>
+ This is a curriculum project at UESTC.<br>
  I'm responsible for all the code and game design
  """
  
