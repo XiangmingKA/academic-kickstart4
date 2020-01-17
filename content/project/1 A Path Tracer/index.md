@@ -56,7 +56,7 @@ Now, it is the time to implement path tracing!
 
 ## Monte-Carlo integration & Path Tracing
 
-To support pixel antialiasing, I implemented a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera illustrated as followed:
+To support pixel antialiasing, I implemented a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera illustrated as follows:
 ![Antialiasing1](img/Antialiasing1.jpg)
 
 As for the depth-of-field effect, I simulated an imaginary thin lens with a fixed aperture to produce a nice depth-of-field effect, where some objects will be sharp but others blurry.
@@ -71,7 +71,7 @@ Depth-of-field effected scene:
 Now, here is the most important part! 
 A basic Monte-Carlo estimater was implemented to sample radiance of the hemisphere.
 ![Test Scene 1](img/PathTracing.jpg)
-By intergrating the radiance coming from the hemisphere, we could estimate the radiance of inderict illumination. So far, we can get the global illuminated scences as followed.
+By integrating the radiance coming from the hemisphere, we could estimate the radiance of indirect illumination. So far, we can get the global illuminated scenes as follows.
 ![Test Scene 1](img/PathTracing2.jpg)
 
 ## Final thesis

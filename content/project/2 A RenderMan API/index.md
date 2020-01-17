@@ -39,13 +39,11 @@ The main process of the program is as follows: <br>
 
 # Features
 ## Main Rendering Pipeline Design
-The overall rendering pipeline are based on the Renderman interface standard. I implemented most parts of the Renderman pipeline descripted as followed:
-<div style="text-align: center">
-<img src="img/RM1.jpg"/>
-</div>
+The overall rendering pipeline are based on the Renderman interface standard. I implemented most parts of the Renderman pipeline descripted as follows:
+![Camera setting](img/RM1.jpg)
 And the camera setting is descripted below, which is different as OpenGL.
-![Camera setting](img/RM3.jpeg)
-![Hidden Surface Algorithm](img/RM2/jpeg)
+![Camera setting](img/RM3.jpg)
+![Hidden Surface Algorithm](img/RM2.jpg)
 
 ## Rasterizer
 For short, it is able to set up a rudimentary graphics state, render primitives with bound shaders, and determine the visibility using a z-buffer algorithm. Rendering primitives in a Reyes architecture involves dicing them up into a micropolygon grid, shading the grid, and then busting up the grid into micropolygons that are bounded and sampled into screen space locations. 
