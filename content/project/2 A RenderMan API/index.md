@@ -8,7 +8,7 @@ title = "2. A RenderMan Graphics Interface"
 
 # Project summary to display on homepage.
 summary = """
- This is the curriculum project in CS285 Advanced Image Synthesis at UCSB.<br>
+ This is a curriculum project in CS285 Advanced Image Synthesis at UCSB.<br>
  I'm responsible for all the code and pipeline design
  """
  
