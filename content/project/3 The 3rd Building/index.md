@@ -27,7 +27,7 @@ external_link = ""
 +++
 
 # Overview
-This is the star game project at the Unreal Studio at UESTC. Designed and developed by Kaiyan Zhang, Wenhan Hao, and me (also known as the F-Greetings team), we decided to create a horror game based on the 3rd lecture building at UESTC. To be specific, this is the first double perspectives and double storylines stealth game in history. We are planning to publish this game in a completed version in the coming months. There is a demo already published on Steam: https://store.steampowered.com/app/942010/The_3rd_Building/
+This is the star game project at the Unreal Studio at UESTC. Designed and developed by Kaiyan Zhang, Wenhan Hao, and me (also known as the F-Greetings team), we decided to create a horror game based on the 3rd lecture building at UESTC. To be specific, this is a double perspectives and double storylines stealth game. We are planning to publish this game in a completed version in the coming months. There is a demo already published on Steam: https://store.steampowered.com/app/942010/The_3rd_Building/
 
 # Video
 <video src="./Demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
