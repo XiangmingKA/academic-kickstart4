@@ -45,15 +45,15 @@ The scene of this game is based on the campus of UESTC. And the building models 
 ![Test Scene 1](img/image2.jpg)
 ## Level design
 
-While game design wasn't the focus area of this project, I implemented a simple multiplayer level design: Two players are born at spawn point A & B and begin to fight!
+While the game design wasn't the focus area of this project, I implemented a simple multiplayer level design: Two players are born at spawn point A & B and begin to fight!
 ![Test Scene 1](img/image3.jpg)
 
 ## Game mechanisms
 
-In the beginning og this game, players will be showen the following scene. Players can choose to host a new game or join others' game by entering the local host number.
+At the beginning of this game, players will be shown in the following scene. Players can choose to host a new game or join others' games by entering the local host number.
 ![Test Scene 1](img/image5.jpg)
 
-Players can move and rotate their tanks by pressing W A S D. 
+Players can move and rotate their tanks by pressing W A S D. And there is a pointer at the top of the scene indicating player's health value.
 ![Test Scene 1](img/image6.jpg)
 
 By entering "space", they can fire a shell. The field of fire depends on the time players pressing "space" demonstrated as following:

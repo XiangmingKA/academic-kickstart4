@@ -9,7 +9,7 @@ title = "5. An Unreal Car Racing Game"
 # Project summary to display on homepage.
 summary = """
  This is a curriculum project at UESTC.<br>
- I'm responsible for all the code and part of the scene setting.
+ I'm responsible for all the code and part of the scene-setting.
  """
  
 image_preview = "featured.png"
@@ -28,7 +28,7 @@ external_link = ""
 
 # Overview
 This is a third-person car racing game developed with Unreal.
-I am fully responsible for all the blue print programming and part of the scene-setting in Corporate Cooperation Course at UESTC in 2019.
+I am fully responsible for all the blueprint programming and part of the scene-setting in Corporate Cooperation Course at UESTC in 2019.
 
 
 # Features

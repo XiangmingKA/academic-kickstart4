@@ -27,7 +27,7 @@ external_link = ""
 +++
 
 # Overview
-This is the star game project at the Unreal Studio at UESTC. Designed and developed by Kaiyan Zhang, Wenhan Hao, and me (also known as the F-Greetings team), we decided to create a horror game based on the 3rd lecture building at UESTC. To be specific, this is a double perspectives and double storylines stealth game. We are planning to publish this game in a completed version in the coming months. There is a demo already published on Steam: https://store.steampowered.com/app/942010/The_3rd_Building/
+This is the star game project at the Unreal Studio at UESTC. Designed and developed by Kaiyan Zhang, Wenhan Hao, and me (also known as the F-Greetings team), we decided to create a horror game based on the 3rd lecture building at UESTC. To be specific, this is a dual perspective and dual storyline stealth game. We are planning to publish this game in a completed version in the coming months. There is a demo already published on Steam: https://store.steampowered.com/app/942010/The_3rd_Building/
 
 # Video
 <video src="./Demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
@@ -35,14 +35,14 @@ Your browser does not support the video tag.
 </video>
 
 ## My Work
-I am responsible for the plot design, part of the level design, and part of the Unreal blue print development--especially in the visual effects.
+I am responsible for the plot design, part of the level design, and part of the Unreal blueprint development--especially in the visual effects.
 ![Test Scene 1](img/image10.png)
-Early stage level design:
+Early-stage level design:
 ![Test Scene 1](img/image4.png)
 
 # Features
 ## Story
-This game is based on true stories from the producers. Every school has a haunting building and pieces of mysterious story. The 3rd building, where our studio is located, and where we have spent countless long nights, serves as the place that players want to escape in the first storyline.
+This game is based on true stories from the producers. Every school has a haunting building and mysterious stories. The 3rd building, where our studio is located, and where we have spent countless long nights, serves as the place that players want to escape in the first storyline.
 ![Test Scene 1](img/image1.jpg)
 
 In the first chapter, players act in the first-person perspective as the "producer" who is developing a horror game--sounds familiar ha?--and encountering some horrible things. To escape the 3rd building, players need to snake out of the building while avoiding being caught by zombies and solve the puzzles.
@@ -70,6 +70,6 @@ A demo scene showing our machinery:
 
 ![Test Scene 1](img/image7.png)
 
-That's all I can tell currently because I don't want to spoil the story. The full version game is coming soon! Check out https://store.steampowered.com/app/942010/The_3rd_Building/
+That's all I can tell currently because I don't want to spoil the story. The complete version game is coming soon! Check out https://store.steampowered.com/app/942010/The_3rd_Building/
 
 
