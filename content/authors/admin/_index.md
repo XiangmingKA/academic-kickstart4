@@ -41,6 +41,10 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 
+- icon: envelope
+icon_pack: fas
+link: mailto:kaxm0124@163.com
+
 - icon: github
   icon_pack: fab
   link: https://github.com/XiangmingKA
