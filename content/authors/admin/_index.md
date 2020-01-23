@@ -41,10 +41,6 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 
-- icon: envelope
-  icon_pack: fas
-  link: mailto:kaxm0124@163.com
-
 - icon: github
   icon_pack: fab
   link: https://github.com/XiangmingKA
@@ -54,7 +50,9 @@ social:
   icon_pack: ai
   link: files/cv.pdf
 
-
+- icon: envelope
+  icon_pack: fas
+  link: mailto:kaxm0124@163.com
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "kaxm0124@163.com"
 
@@ -67,4 +65,4 @@ user_groups:
 
 Welcome to Xiangming Ka's homepage!
 
-I am a senior student who is majoring in Software Engineering at University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the Unreal Game Studio at UESTC http://www.ss.uestc.edu.cn/studio.do?id=491. My research fields include Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of Visual Arts--Game Design, Game Culture, Movies, and Photography.
+I am a senior student who is majoring in Software Engineering at the University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the Unreal Game Studio at UESTC http://www.ss.uestc.edu.cn/studio.do?id=491. My research fields include Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of Visual Arts--Game Design, Game Culture, Movies, and Photography.
