@@ -39,9 +39,9 @@ The main process of the program is as follows: <br>
 
 # Features
 ## Main Rendering Pipeline Design
-The overall rendering pipeline are based on the Renderman interface standard. I implemented most parts of the Renderman pipeline descripted as follows:
+The overall rendering pipeline is based on the Renderman interface standard. I implemented most parts of the Renderman pipeline described as follows:
 ![Camera setting](img/RM1.jpg)
-And the camera setting is descripted below, which is different as OpenGL.
+And the camera setting is described below. It is a left-hand coordinate system, which is different from OpenGL.
 ![Camera setting](img/RM3.jpg)
 ![Hidden Surface Algorithm](img/RM2.jpg)
 
