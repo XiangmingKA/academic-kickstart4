@@ -59,7 +59,7 @@ A demo scene:
 ### Geometric primitives
 Currently, this program supports primitives such as torus (RiTorus), sphere (RiSphere), cone (RiCone), and cylinder (RiCylinder). We can use RiColor() to specify the current color of the objects. To rasterize objects, this program will evaluate P (the position in object space of the point on the surface), the surface parameters (u, v), the derivatives (du, dv) and (dPdu, dPdv), the surface shading normal N.
 ![Renderman quadrics](img/image1.jpg)
-And other primitives can be described as follows:
+And other primitives are described as follows:
 ![Renderman quadrics](img/RM5.jpg)
 
 A scene showing multiple types of geometric primitive:
