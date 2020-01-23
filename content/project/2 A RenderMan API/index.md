@@ -80,9 +80,10 @@ I used OpenCV to read the image file and conveyed it to textures through RiMakeT
 I kept a sorted linked list at each sample in the framebuffer, where micropolygons are sorted with respect to their distance from the camera. When an opaque object is inserted into the list, it clears out the remaining items from the rest of the list, because that opaque sample effectively blocks the rest of the samples. To implement transparency, we will use RiOpacity().
 ![Transparency](img/RM4.png)
 
-In sum, this program defines the following functions in a standard RenderMan interface:
+In sum, this program defines the following functions in the standard RenderMan interface:
 
 To set up graphics state:
+
 RiBegin
 RiEnd()
 RiFormat()
@@ -96,6 +97,7 @@ RiWorldBegin()
 RiWorldEnd()
 
 Transformations:
+
 RiTransformBegin()
 RiTransformEnd()
 RiIdentity()
@@ -112,6 +114,7 @@ RiCylinder()
 RiTorus()
 
 Shading:
+
 RiColor()
 RiOpacity()
 RiMakeTexture()
