@@ -44,16 +44,20 @@ I implemented most parts of the Renderman pipeline described as follows:
 ![Camera setting](img/RM1.jpg)
 
 ### Camera settings
-And the camera setting is described below. It is a left-hand coordinate system, which is different from OpenGL.
+We can use RiProjection() and RiTranslate() to set up the perspective transformation.
+The camera setting is described below. It is a left-hand coordinate system, which is different from OpenGL.
 ![Camera setting](img/RM3.jpg)
 ![Hidden Surface Algorithm](img/RM2.jpg)
 
 ### Rasterizer
-For short, it is able to set up a rudimentary graphics state, render primitives with bound shaders, and determine the visibility using a z-buffer algorithm. Rendering primitives in a Reyes architecture involves dicing them up into a micropolygon grid, shading the grid, and then busting up the grid into micropolygons that are bounded and sampled into screen space locations. 
+For short, it is able to set up a rudimentary graphics state, render primitives with bound shaders, and determine the visibility using a z-buffer algorithm. Rendering primitives in a Reyes architecture involves dicing them up into a micropolygon grid, shading the grid, and then busting up the grid into micropolygons that are bounded and sampled into screen space locations. Finally, it will save out the images into a file specified by RiDisplay().
+
+A demo scene:
+![Camera setting](img/image3.jpg)
 
 
 ### Geometric primitives
-Currently, this program supports primitives such as Torus (RiTorus), sphere (RiSphere), cone (RiCone), and cylinder (RiCylinder). We can use RiColor() to specify the current color of the objects. To rasterize objects, this program will evaluate P (the position in object space of the point on the surface), the surface parameters (u, v), the derivatives (du, dv) and (dPdu, dPdv), the surface shading normal N.
+Currently, this program supports primitives such as torus (RiTorus), sphere (RiSphere), cone (RiCone), and cylinder (RiCylinder). We can use RiColor() to specify the current color of the objects. To rasterize objects, this program will evaluate P (the position in object space of the point on the surface), the surface parameters (u, v), the derivatives (du, dv) and (dPdu, dPdv), the surface shading normal N.
 ![Renderman quadrics](img/image1.jpg)
 And other primitives can be described as follows:
 ![Renderman quadrics](img/RM5.jpg)
@@ -73,7 +77,46 @@ A scene showing displacement shaders and textures:
 I used OpenCV to read the image file and conveyed it to textures through RiMakeTexture(“my_texture.bmp”, 0); . Then, I use the (u,v) coordinates (which are parameterized from 0 to 1) as the (s,t) coordinates for the texture lookup.
 ![Textures](img/feature.jpg)
 ### Transparency
-I kept a sorted linked list at each sample in the framebuffer, where micropolygons are sorted with respect to their distance from the camera. When an opaque object is inserted into the list, it clears out the remaining items from the rest of the list, because that opaque sample effectively blocks the rest of the samples. 
+I kept a sorted linked list at each sample in the framebuffer, where micropolygons are sorted with respect to their distance from the camera. When an opaque object is inserted into the list, it clears out the remaining items from the rest of the list, because that opaque sample effectively blocks the rest of the samples. To implement transparency, we will use RiOpacity().
 ![Transparency](img/RM4.png)
+
+In sum, this program defines the following functions in a standard RenderMan interface:
+
+To set up graphics state:
+RiBegin
+RiEnd()
+RiFormat()
+RiProjection() 
+RiFrameAspectRatio() 
+RiPixelSamples()
+RiDisplay()
+RiFrameBegin()
+RiFrameEnd()
+RiWorldBegin()
+RiWorldEnd()
+
+Transformations:
+RiTransformBegin()
+RiTransformEnd()
+RiIdentity()
+RiTransform()
+RiPerspective()
+RiTranslate()
+RiRotate()
+RiScale()
+RiConcatTransform()
+Primitives
+RiSphere()
+RiCone()
+RiCylinder()
+RiTorus()
+
+Shading:
+RiColor()
+RiOpacity()
+RiMakeTexture()
+RiSurface()
+RiDisplacement()
+
 
 For source code: https://github.com/XiangmingKA/RenderMan
