@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research areas include Computer Graphics (Rendering), Game Development, Computer Vision, and Machine Learning.
+bio: My research interests include Computer Graphics (Rendering), Game Development, Computer Vision, and Machine Learning.
 
 interests:
 - Computer Graphics (hard-core Rendering)
@@ -65,4 +65,4 @@ user_groups:
 
 Welcome to Xiangming Ka's homepage!
 
-I am a senior student who is majoring in Software Engineering at the University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the [Unreal Game Studio](http://www.ss.uestc.edu.cn/studio.do?id=491) at UESTC. My research fields include Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of Visual Arts--Game Design, Game Culture, Filmmaking, and Photography.
+I am a senior student who is majoring in Software Engineering at the University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the [Unreal Game Studio](http://www.ss.uestc.edu.cn/studio.do?id=491) at UESTC. My research fields include Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of Visual Arts--Game Design, Game Culture, Movies, and Photography.
