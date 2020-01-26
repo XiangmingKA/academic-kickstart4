@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: BE in Software Engineering (Digital Animation)
+  - course: B.E. in Software Engineering (Digital Animation)
     institution: University of Electronic Science and Technology of China
     year: 2016.9-2020.6
   - course: Exchange Program
