@@ -38,7 +38,7 @@ Your browser does not support the video tag.
 I am responsible for the plot design, part of the level design, and part of the Unreal blueprint development--especially in the visual effects.
 ![Test Scene 1](img/image10.png)
 Early-stage level design:
-![Test Scene 1](img/image4.png)
+![Test Scene 1](img/image11.png)
 
 # Features
 ## Story
