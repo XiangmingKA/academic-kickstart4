@@ -4,7 +4,7 @@ date = 2018-11-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "Screen-Space Subsurface Scattering Render Feature in URP"
+title = "Advanced Character Rendering in Unity URP"
 
 # Project summary to display on homepage.
 summary = """
@@ -27,32 +27,23 @@ external_link = ""
 +++
 
 # Overview
-This is a Monte-Carlo rendering system that supports global illumination, interpolating parameters, texture mapping, bounding volume hierarchy accelerating, and depth of field effected rendering, etc..<br>
-I independently accomplished it under the guidance of Prof. Pradeep Sen. <br>
+To achieve high fidelity character rendering, we implement multiple rendering techniques in Universal Render Pipeline, including a highly optimized screen-space subsurface scattering render feature, specialized PBR skin shader, and complicated eye shader that simulates refractions. All of these features are highly performance-optimized to support mobile and VR platforms.
 
-The main workflow of the program is as follows: <br>
-1. Implement a basic Whitted-style ray tracer. <br>
-2. Improved it to support interpolating parameters, texture mapping, shaders.<br>
-3. Accelerate the rendering of complex scenes by optimize the sphere and triangle intersection routines and add acceleration data structures.
-4. Improve it to support Monte-Carlo integration (pixel antialiasing by integrating with a box filter over the pixel footprint and depth of field by integrating over the aperture of the camera).
-5. Add path tracing to support global illumination.
+<video src="./demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
+Your browser does not support the video tag.
+</video>
 
-# Features
+# Screen-Space Subsurface Scattering
 ## Ray Tracing
 
-The first step of this system is to implement a basic Whitted-style ray tracer. Features like reflection, refraction, and shadowing are supported.
-![Reflections & Shadows](img/Scene-Test5.jpg)
-![Reflections & Refractions](img/Scene-Test2.jpg)
+To render the subsurface scattering effect, I developed a Custom Render Feature to extend the Universal Render Pipeline. The specular and diffuse light contributions of the skin are stored separately in two textures and passed to the next render pass. A compute shader is implemented to calculate the final blurry scattered image using Burley’s normalized diffusion model.
 
-Then, I Improved it to support more shaders, such as texture mapping and interpolating parameters.
-![Shaders](img/Shaders.jpg)
+We use the Diffusion Profile to control the subsurface scattering. I developed the supporting shader GUI and profile management system.
 
-To render complex scenes, I added a heuristic bounding volume hierarchy (BVH) to store the primitives in an efficient manner. Also, I optimize the sphere and triangle intersection routines. In most scenes, the speed of rendering has been accelerated by more than 50x.
-![Test Scene 1](img/BVH.jpg)
-A complex scene rendered within 2 minutes:
-![Test Scene 1](img/Scene2-Test5.jpg)
+<video src="./demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
+Your browser does not support the video tag.
+</video>
 
-Now, it is the time to implement path tracing!
 
 ## Monte-Carlo integration & Path Tracing
 
