@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Shanghai"
   date_start = "2021-08-31"
-  date_end = "2019-09-06"
+  date_end = ""
   description = """
   Responsibilities include:
   
