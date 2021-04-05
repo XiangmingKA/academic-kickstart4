@@ -18,6 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Technical Artist"
+  company = "Unity Technologies"
+  company_url = ""
+  location = "Shanghai"
+  date_start = "2020-8-31"
+  
+  description = """
+  Responsibilities include:
+  
+  * Enterprise Support
+  * Render Feature and Shader Creations
+  """
+
+
+
+[[experience]]
   title = "Internship"
   company = "EO-VISION Digital Technology Co., Ltd."
   company_url = ""
