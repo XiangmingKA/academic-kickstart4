@@ -10,24 +10,28 @@ authors:
 superuser: true
 
 # Role/position
-role: Vice-Principal of Unreal Studio at UESTC
+role: Technical Artist at Unity Technologies
 
 # Organizations/Affiliations
 organizations:
-- name: University of Electronic Science and Technology of China
+- name: Unity Technologies & Carnegie Mellon University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research areas include Computer Graphics (Rendering), Game Development, Computer Vision, and Machine Learning.
+bio: Gap year student of Carnegie Mellon University, currently working at Unity Technologies Shanghai. Experienced Technical Artist and Game Developer.
 
 interests:
-- Computer Graphics (hard-core Rendering)
+- Computer Graphics
+- Shader Creation
 - Game Development
-- Virtual Reality/Augmented Reality
-- Machine Learning
+- 3D Modeling and Texturing
+
 
 education:
   courses:
+  - course: M.E.T. in Entertainment Technology
+    institution: Carnegie Mellon University
+    year: 2020.8 - 2023.6
   - course: B.E. in Software Engineering (Digital Animation)
     institution: University of Electronic Science and Technology of China
     year: 2016.9-2020.6
@@ -63,6 +67,16 @@ user_groups:
 - Visitors
 ---
 
-Welcome to Xiangming Ka's homepage!
+My interests lie in the interdisciplinary area in the game industry, with an emphasis on Computer Graphics, 3D Modeling, and Texturing. 
 
-I am a senior student who is majoring in Software Engineering at the University of Electronic Science and Technology of China (UESTC). Also, I am the vice-principle of the [Unreal Game Studio](http://www.ss.uestc.edu.cn/studio.do?id=491) at UESTC. My research fields include Computer Graphics (Rendering), Game Development, VR/AR, and Machine Learning. Besides the technological aspects, I am also interested in the artistic aspects of Visual Arts--Game Design, Game Culture, Filmmaking, and Photography.
+- Experience working with commercial game engines (Unity and Unreal).
+- Great understanding of PBR texturing and rendering principles.
+- Great understanding of the rendering pipeline in Unity, with experience developing render features and shader graph master nodes. 
+- Experience using Substance Painter and Substance Designer.
+- Special knowledge of Autodesk 3ds Max and Maya.
+- Experience in pipeline and shader optimization. 
+
+Dedicated game developer that actively participant in game jams and individual game projects.
+
+- Experience in gameplay programming in Unity and Unreal.
+- Professional knowledge in Game Design principles.
