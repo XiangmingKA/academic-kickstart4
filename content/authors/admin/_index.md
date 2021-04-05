@@ -55,8 +55,8 @@ social:
   link: files/cv.pdf
   
 - icon: linkedin
-icon_pack: fab
-link: https://www.linkedin.com/in/xiangming-ka-72276118b/
+  icon_pack: fab
+  link: https://www.linkedin.com/in/xiangming-ka-72276118b/
 
 - icon: envelope
   icon_pack: fas
