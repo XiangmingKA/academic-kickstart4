@@ -35,6 +35,29 @@ To give artists the flexibility to create various types of fiber while using dif
 ![Silk, Shot Silk, Nylon material samples](img/fabric_sample3.png)
 
 # Features
+## Cotton Shading
+For common cotton shading, we highlighted the following featured based on observations from reality:
+1. Soft specular lobe with large smooth falloffs.
+2. Fuzz on the rim from asperity scattering.
+3. Low specular contribution at front facing angles.
+One extreme example is Linen:
+![Cotton Shading: Linen](img/fabric_linen.png)
+
+## Translucency
+We implemented translucency effect for thin fibers:
+![Translucency](img/fabric_translucency.png)
+
+## Silk Shading
+Silk-like fibers feature anisotropic specular highlights and separate specular color that gives the material an iridescent look:
+
+![Silk Shading: Nylon](img/fabric_nylon.png)
+![Silk Shading: Shot Silk](img/fabric_silk.png)
+Notice the fuzz color deviation on the base map.
+
+## Shader Graph Workflow
+We provided a general Shader Graph for artists to create their own fibers. By blending the details and patterns, artists can easily create differentiated types of material using a few input textures.
+![Shader Graph Workflow](img/fabric_shadergraph.png)
+
 ## Shader Graph Master Node
 We extended the Shader Graph material type in URP. Added the "Fabric" option in the Graph Inspector, users can convert their Lit shader to our Fabric shader. 
 ![Material type option for Fabric](img/fabric_inspector.png)
@@ -45,5 +68,7 @@ To better mimic the surface feature of fiber, we implemented two types of BRDF--
 
 Two-sided rendering options were extended to support flipped-normal and mirrored-normal.
 ![Two-sided rendering options in Graph Inspector](img/fabric_twosided.png)
+
+
 
 
