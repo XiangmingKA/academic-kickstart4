@@ -26,7 +26,7 @@ external_link = ""
 +++
 
 # Overview
-This render feature simulate the in-scattering and out-scattering phenomenon when media participates in light transport. 
+This render feature simulates the in-scattering and out-scattering phenomenon when media participates in light transport. 
 <video src="./demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
 Your browser does not support the video tag.
 </video>
