@@ -27,8 +27,9 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Enterprise Support
+  * Enterprise support
   * Render Feature and Shader Creation
+  * Assets improvement with Substance and Maya
   """
 
 [[experience]]
@@ -45,12 +46,4 @@ date_format = "Jan 2006"
   * Interactive touch screen demonstration developments
   """
 
-[[experience]]
-  title = "Assistant Researcher"
-  company = "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology"
-  company_url = ""
-  location = "Shenzhen"
-  date_start = "2018-10-01"
-  date_end = "2018-10-15"
-  description = """We collected visual-cortical SSVEP brain waves under certain visual stimuli. Then we trained a neural network to determine the types and characteristics of visual stimuli received by subjects."""
 +++

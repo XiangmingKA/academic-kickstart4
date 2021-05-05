@@ -31,3 +31,5 @@ I was responsible for the shader creations in Unity's 2D Lighting system. To cre
 I created the 2D lighting environment and the particles in the game, assisted artists in their texture and animation creations.
 Also, I was responsible for part of the gameplay programming.
 
+For more information: https://globalgamejam.org/2021/games/chromatopsia-0
+
