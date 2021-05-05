@@ -27,6 +27,7 @@ external_link = ""
 +++
 
 # Overview
+![Cotton, Wool, Denim material samples](img/overview.png)
 To give artists the flexibility to create various types of fiber while using different pipeline standards, we created this Shader-Graph-based fabric shading solution. While shading fibers in a physically based manner, we guaranteed that artists can use shader graphs to process their inputs. For instance, artists can choose the sources as the normal input--from normal maps, thread maps, or detail maps. We created the master node with two types of BRDF for silk-like and cotton-like fibers. Also, we implemented the commonly used features for fabric shading--translucency, anisotropic specular, and an extended two-sided rendering option. 
 
 ## Material Samples

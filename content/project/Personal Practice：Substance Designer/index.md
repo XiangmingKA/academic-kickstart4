@@ -27,7 +27,8 @@ external_link = ""
 
 # Outputs:
 
-![Cotton, Wool, Denim material samples](img/fabric_sample1.png)
-![Linen and Velvet material samples](img/fabric_sample2.png)
-![Silk, Shot Silk, Nylon material samples](img/fabric_sample3.png)
+![Cotton, Wool, Denim material samples](img/res1.png)
+![Linen and Velvet material samples](img/res2.png)
+![Silk, Shot Silk, Nylon material samples](img/graph.png)
+![Silk, Shot Silk, Nylon material samples](img/outputs.png)
 
