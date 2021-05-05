@@ -8,11 +8,11 @@ title = "Fabric Shading in Unity URP Shader Graph"
 
 # Project summary to display on homepage.
 summary = """
- A universial fabric shading solution, including customized Shader Graph master node and common funtion used in the industry.<br>
- I'm fully responsible for the Shader Graph development, including extend the current URP shader graph to support fabric shading, implementing specialized BRDFs for different types of fabre, and developing shader graph nodes that users commonly use in creating fabirc shader graphs. 
+A comprehensive Shader-Graph-based fabric shading solution, extremely artist-friendly.<br>
+I built the Master Node that implemented fabric BRDFs, anisotropy specular, and translucency, etc.. And I was responsible to build the Shader Graph nodes to support artists' work. I was responsible for the C# and HLSL coding, BRDFs research, Shader Graph nodes creation, and Demo creation using Substance Designer. 
  """
  
-image_preview = "img/overview.jpg"
+image_preview = "img/overview.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Computer Graphics", "Rendering"]`
