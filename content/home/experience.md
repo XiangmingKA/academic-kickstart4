@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Unity Technologies"
   company_url = ""
   location = "Shanghai"
-  date_start = "2021-08-31"
+  date_start = "2020-08-31"
   date_end = ""
   description = """
   Responsibilities include:

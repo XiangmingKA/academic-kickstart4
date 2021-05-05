@@ -8,7 +8,7 @@ title = "Personal Practice：Substance Designer"
 
 # Project summary to display on homepage.
 summary = """
-Substance Designer pratice: pebbly ground
+Substance Designer practice: pebbly ground
  """
  
 image_preview = "img/overview.png"
