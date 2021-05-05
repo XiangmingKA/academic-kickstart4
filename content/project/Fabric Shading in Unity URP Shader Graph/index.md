@@ -57,8 +57,9 @@ Notice the fuzz color deviation on the base map.
 ## Shader Graph Workflow
 We provided a general Shader Graph for artists to create their own fibers. By blending the details and patterns, artists can easily create differentiated types of material using a few input textures.
 ![Shader Graph Workflow](img/fabric_shadergraph.png)
+![Shader Graph Workflow](img/fabric_threadmap.png)
 
-## Shader Graph Master Node
+## Shader Graph Master Node Extension
 We extended the Shader Graph material type in URP. Added the "Fabric" option in the Graph Inspector, users can convert their Lit shader to our Fabric shader. 
 ![Material type option for Fabric](img/fabric_inspector.png)
 
