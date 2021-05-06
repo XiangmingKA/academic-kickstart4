@@ -80,7 +80,7 @@ My interests lie in the interdisciplinary area in the game industry, with an emp
 - Special knowledge of Autodesk 3ds Max and Maya.
 - Experience in pipeline and shader optimization. 
 
-Dedicated game developer that actively participant in game jams and individual game projects.
+Dedicated game developer that actively participated in game jams and individual game projects.
 
 - Experience in gameplay programming in Unity and Unreal.
 - Professional knowledge in Game Design principles.

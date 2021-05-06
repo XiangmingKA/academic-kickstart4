@@ -16,7 +16,7 @@ image_preview = "img/overview.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Computer Graphics", "Rendering"]`
-tags = ["Computer Graphics","Rendering"]
+tags = ["Game Development"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://globalgamejam.org/2021/games/chromatopsia-0"

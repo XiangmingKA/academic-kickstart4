@@ -32,6 +32,15 @@ subtitle = ""
    [[content.filter_button]]
      name = "Game Development"
      tag = "Game Development"
+     
+   [[content.filter_button]]
+     name = "Texturing"
+     tag = "Texturing"
+  
+   [[content.filter_button]]
+     name = "Modeling"
+     tag = "Modeling"
+     
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
