@@ -8,7 +8,7 @@ title = "Efficient Froxel Based Volumetric Fog Render Feature"
 
 # Project summary to display on homepage.
 summary = """
-Efficient froxel-based volumetric fog render feature in Unity URP. I was responsible to built the custom render feature and compute shaders. 
+Efficient froxel-based volumetric fog render feature in Unity URP. I was responsible to build the custom render feature and compute shaders. 
  """
  
 image_preview = "img/overview.png"
