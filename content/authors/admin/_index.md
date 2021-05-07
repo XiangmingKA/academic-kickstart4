@@ -82,5 +82,5 @@ My interests lie in the interdisciplinary area in the game industry, with an emp
 
 Dedicated game developer that actively participated in game jams and individual game projects.
 
-- Experience in gameplay programming in Unity and Unreal.
+- Experience in gameplay programming with Unity and Unreal.
 - Professional knowledge in Game Design principles.
