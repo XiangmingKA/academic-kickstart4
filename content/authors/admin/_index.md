@@ -30,10 +30,10 @@ interests:
 
 education:
   courses:
-  - course: Master in Entertainment Technology
+  - course: Master of Entertainment Technology
     institution: Carnegie Mellon University
     year: 2021.8 - 2023.6
-  - course: B.E. in Software Engineering
+  - course: Bachelor of Software Engineering
     institution: University of Electronic Science and Technology of China
     year: 2016.9-2020.6
   - course: Exchange Program
