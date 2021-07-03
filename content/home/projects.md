@@ -36,6 +36,10 @@ subtitle = ""
    [[content.filter_button]]
      name = "Texturing"
      tag = "Texturing"
+     
+   [[content.filter_button]]
+     name = "Lighting"
+     tag = "Lighting"
   
    [[content.filter_button]]
      name = "Modeling"

@@ -10,29 +10,30 @@ authors:
 superuser: true
 
 # Role/position
-role: Technical Artist at Unity Technologies
+role: Technical Artist
 
 # Organizations/Affiliations
 organizations:
-- name: Unity Technologies & Carnegie Mellon University
+- name: Carnegie Mellon University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Gap year student of Carnegie Mellon University, currently working at Unity Technologies Shanghai. Experienced Technical Artist and Game Developer.
+bio: Graduate student at Carnegie Mellon University, experienced Technical Artist with a Computer Graphics background.
 
 interests:
 - Computer Graphics
 - Shader Creation
 - Game Development
 - 3D Modeling and Texturing
+- Lighting
 
 
 education:
   courses:
-  - course: M.E.T. in Entertainment Technology
+  - course: Master in Entertainment Technology
     institution: Carnegie Mellon University
-    year: 2020.8 - 2023.6
-  - course: B.E. in Software Engineering (Digital Animation)
+    year: 2021.8 - 2023.6
+  - course: B.E. in Software Engineering
     institution: University of Electronic Science and Technology of China
     year: 2016.9-2020.6
   - course: Exchange Program
@@ -71,16 +72,4 @@ user_groups:
 - Visitors
 ---
 
-My interests lie in the interdisciplinary area in the game industry, with an emphasis on Computer Graphics, 3D Modeling, and Texturing. 
-
-- Experience working with commercial game engines (Unity and Unreal).
-- Great understanding of PBR texturing and rendering principles.
-- Great understanding of the rendering pipeline in Unity, with experience developing render features and shader graph master nodes. 
-- Experience using Substance Painter and Substance Designer.
-- Special knowledge of Autodesk 3ds Max and Maya.
-- Experience in pipeline and shader optimization. 
-
-Dedicated game developer that actively participated in game jams and individual game projects.
-
-- Experience in gameplay programming with Unity and Unreal.
-- Professional knowledge in Game Design principles.
+Xiangming is a graduate student at Carnegie Mellon University, Entertainment Technology Center. He has a demonstrated work experience in the video game industry as a Technical Artist. His interests lie in the interdisciplinary area in the game industry, with emphasis on Computer Graphics, 3D Modeling, Lighting, and Texturing. With a Computer Graphics programming background, he has a great understanding of the render pipeline and shader creation. He has strong knowledge of Physically-Based Rendering principles in texturing and rendering.  Also, he is familiar with DCC packages such as Maya, 3ds Max, and Substance.

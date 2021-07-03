@@ -16,7 +16,7 @@ image_preview = "img/overview.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Texture", "Substance Designer"]`
-tags = ["Rendering"]
+tags = ["Lighting"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
