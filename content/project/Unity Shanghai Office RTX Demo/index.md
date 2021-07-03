@@ -8,7 +8,7 @@ title = "Unity Shanghai Office RTX Demo"
 
 # Project summary to display on homepage.
 summary = """
-Unity Shanghai Office Real-Time Ray Tracing Demo, Made with Unity HDRP.
+Unity Shanghai Office Real-Time Ray Tracing Demo. Made with Unity HDRP.
 I am responsible for the environment lighting.  
  """
  
