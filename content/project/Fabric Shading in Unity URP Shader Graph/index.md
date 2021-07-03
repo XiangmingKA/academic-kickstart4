@@ -4,7 +4,7 @@ date = 2018-11-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "Fabric Shading in Unity URP Shader Graph"
+title = "Fabric Shading with Unity URP"
 
 # Project summary to display on homepage.
 summary = """
