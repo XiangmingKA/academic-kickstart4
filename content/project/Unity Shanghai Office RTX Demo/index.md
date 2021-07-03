@@ -22,7 +22,7 @@ tags = ["Rendering"]
 external_link = ""
 
 # [header]
-# image = "img/featured.png"
+# image = "img/overview.png"
 
 +++
 
