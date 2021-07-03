@@ -4,12 +4,12 @@ date = 2018-11-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "Course Project：A RenderMan API"
+title = "Course Project：A RenderMan Graphics API"
 
 # Project summary to display on homepage.
 summary = """
  This is a curriculum project in CS285 Advanced Image Synthesis at UCSB.<br>
- I'm responsible for all the code and pipeline design
+ I'm responsible for all the C++ code and pipeline design
  """
  
 image_preview = "featured.jpeg"
