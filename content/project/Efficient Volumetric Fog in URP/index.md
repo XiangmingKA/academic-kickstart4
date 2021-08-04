@@ -27,9 +27,12 @@ external_link = ""
 
 # Overview
 This render feature simulates the in-scattering and out-scattering phenomenon when media participates in light transport. 
-<video src="./demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
+<video src="./DynamicFog.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
 Your browser does not support the video tag.
 </video>
+
+![Silk, Shot Silk, Nylon material samples](img/VF4.png)
+![Silk, Shot Silk, Nylon material samples](img/VF2.png)
 
 
 # Algorithm overview
@@ -40,9 +43,12 @@ We implemented volumetric textures as intermediate storage, and used compute sha
 3. Then using this information stored in volume textures, we performed 2D raymarching through the volume and stored the result in volume slices.
 4. And finally using pixel shaders, applied information on screen for forward or deferred shaded objects.
 
-
-![Cotton, Wool, Denim material samples](img/VolumetricFog_overview.png)
-![Linen and Velvet material samples](img/VolumetricFog_overview2.png)
+# Shadow
+<video src="./Shadow.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
+Your browser does not support the video tag.
+</video>
+![Silk, Shot Silk, Nylon material samples](img/VF_Shadow2.png)
+![Silk, Shot Silk, Nylon material samples](img/VF_Shadow2.5.png)
 
 # More detail coming soon!
 
