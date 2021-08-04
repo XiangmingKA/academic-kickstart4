@@ -50,7 +50,7 @@ We implemented volumetric textures as intermediate storage, and used compute sha
 3. Then using this information stored in volume textures, we performed 2D raymarching through the volume and stored the result in volume slices.
 4. And finally using pixel shaders, applied information on screen for forward or deferred shaded objects.
 
-![VolumetricFogPasses](img/VolumetricFog Doc.png)
+![VolumetricFogPasses](img/VolumetricFogPasses.png)
 ![VolumetricFogPasses](img/AlgorithmOverview.png)
 ![VolumetricFogPasses](img/Voxel.png)
 
