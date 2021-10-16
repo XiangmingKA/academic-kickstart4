@@ -31,18 +31,19 @@ My duties including environment lighting, assets improvement, and Photometry.
 We rendered those scenes using Unity's HDRP with real-time ray tracing. To achieve photorealism, we measured the light energy distribution in the real world and reconstructed in our virtual office. I also helped our team to fix errors in models and textures. 
 
 # Featured
-![Reflections & Shadows](img/featured_01.png)
 
+Reception
+![Reflections & Shadows](img/featured_01.png)
 Reference:
 ![Reflections & Shadows](img/ref_01.jpeg)
 
+Pantry
 ![Reflections & Shadows](img/featured_02.png)
-
 Reference:
 ![Reflections & Shadows](img/ref_02.jpeg)
 
+Boardroom
 ![Reflections & Shadows](img/featured_06.png)
-
 Reference:
 ![Reflections & Shadows](img/ref_06.jpeg)
 
