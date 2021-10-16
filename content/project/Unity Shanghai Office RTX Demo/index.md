@@ -52,8 +52,22 @@ Reference:
 
 ![Reflections & Shadows](img/featured_05.png)
 
+# Real-Time Ray Tracing
+We experienced the real-time ray tracing features in HDRP including ray traced reflection, ray tracing shadows, ray tracing AO, etc..
+RTX On:
+ ![Reflections & Shadows](img/RTX_On.png)
+ 
+ RTX Off:
+ ![Reflections & Shadows](img/RTX_Off.png)
 
-
-
+# Photometry
+We measured light energy distribution in the real world and reconstructed in our virtual office.
+Measuring light energy using Lux meter:
+ ![Reflections & Shadows](img/LuxMeter_01.jpeg)
+ ![Reflections & Shadows](img/LuxMeter_02.jpeg)
+ Lighting using  
+ ![Reflections & Shadows](img/Relight_01.png)
+ ![Reflections & Shadows](img/Relight_02.png)
+ ![Reflections & Shadows](img/Relight_03.png)
 
 
