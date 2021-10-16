@@ -42,7 +42,8 @@ For common cotton shading, we highlighted the following featured based on observ
 1. Soft specular lobe with large smooth falloffs.
 2. Fuzz on the rim from asperity scattering.
 3. Low specular contribution at front facing angles.
-One extreme example is Linen:
+
+One extreme example is Velvet:
 ![Cotton Shading: Linen](img/fabric_linen.png)
 
 ## Translucency
