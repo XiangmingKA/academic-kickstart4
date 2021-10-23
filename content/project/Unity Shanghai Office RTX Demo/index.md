@@ -30,8 +30,6 @@ external_link = ""
 My duties including environment lighting, assets improvement, and Photometry.
 We rendered those scenes using Unity's HDRP with real-time ray tracing. To achieve photorealism, we measured the light energy distribution in the real world and reconstructed in our virtual office. I also helped our team to fix errors in models and textures. 
 
-# To Be Released!
-/*
 # Featured
 
 Reception
@@ -74,4 +72,3 @@ Measuring light energy using Lux meter:
  ![Reflections & Shadows](img/Relight_02.png)
  ![Reflections & Shadows](img/Relight_03.png)
 
-*/
