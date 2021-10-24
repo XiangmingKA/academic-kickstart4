@@ -56,8 +56,10 @@ RTX On:
 # Photometry
 We measured light energy distribution in the real world and reconstructed in our virtual office.
 Measuring light energy using Lux meter:
+ ![Reflections & Shadows](img/LuxMeter_03.jpeg)
+ ![Reflections & Shadows](img/LuxMeter_04.jpeg)
+ ![Reflections & Shadows](img/LuxMeter_05.jpeg)
  ![Reflections & Shadows](img/LuxMeter_01.jpeg)
- ![Reflections & Shadows](img/LuxMeter_02.jpeg)
  Lighting using  HRDP's Physical Light and Lux Meter units.
  ![Reflections & Shadows](img/Relight_01.png)
  ![Reflections & Shadows](img/Relight_02.png)
