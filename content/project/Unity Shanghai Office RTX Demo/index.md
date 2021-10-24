@@ -32,20 +32,11 @@ We rendered those scenes using Unity's HDRP with real-time ray tracing. To achie
 
 # Featured
 
-Reception
-![Reflections & Shadows](img/featured_01.png)
-Reference:
-![Reflections & Shadows](img/ref_01.jpeg)
-
-Pantry
-![Reflections & Shadows](img/featured_02.png)
-Reference:
-![Reflections & Shadows](img/ref_02.jpeg)
-
-Boardroom
-![Reflections & Shadows](img/featured_06.png)
-Reference:
-![Reflections & Shadows](img/ref_06.jpeg)
+![Reflections & Shadows](img/SHO_01.png)
+![Reflections & Shadows](img/SHO_02.png)
+![Reflections & Shadows](img/SHO_03.png)
+![Reflections & Shadows](img/SHO_04.png)
+![Reflections & Shadows](img/SHO_05.png)
 
 ![Reflections & Shadows](img/featured_03.png)
 
