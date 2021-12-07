@@ -54,7 +54,8 @@ We implemented volumetric textures as intermediate storage, and used compute sha
 ![VolumetricFogPasses](img/AlgorithmOverview.png)
 ![VolumetricFogPasses](img/Voxel.png)
 
-#Code Sample
+#Code Sample:
+
 https://drive.google.com/file/d/1Elv-b8B-D1Kju4zVlN546MjtFonTkIXp/view?usp=sharing
 
 # More detail coming soon!
