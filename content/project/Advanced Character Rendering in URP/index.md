@@ -40,6 +40,7 @@ Your browser does not support the video tag.
 ## Screen-Space Subsurface Scattering
 
 ![SSS Comparesion](img/SSS_Compare01.png)
+![SSS Comparesion](img/SSS_Compare02.png)
 
 To render the subsurface scattering effect, I developed a Custom Render Feature to extend the Universal Render Pipeline. The specular and diffuse light contributions of the skin are stored separately in two textures and passed to the next render pass. A compute shader is implemented to calculate the final blurry scattered image using Burley’s normalized diffusion model.
 
