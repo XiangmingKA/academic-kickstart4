@@ -27,6 +27,9 @@ external_link = ""
 +++
 
 # Overview
+
+![Overview](img/Overview.png)
+
 To achieve high fidelity character rendering, we implement multiple rendering techniques in Universal Render Pipeline, including a highly optimized screen-space subsurface scattering render feature, specialized PBR skin shader, and complicated eye shader that simulates refractions. All of these features are highly performance-optimized to support mobile and VR platforms.
 
 <video src="./demo1.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
@@ -35,6 +38,8 @@ Your browser does not support the video tag.
 
 # Personal Contribution
 ## Screen-Space Subsurface Scattering
+
+![SSS Comparesion](img/SSS_Compare01.png)
 
 To render the subsurface scattering effect, I developed a Custom Render Feature to extend the Universal Render Pipeline. The specular and diffuse light contributions of the skin are stored separately in two textures and passed to the next render pass. A compute shader is implemented to calculate the final blurry scattered image using Burley’s normalized diffusion model.
 
@@ -49,15 +54,31 @@ Your browser does not support the video tag.
 
 To shade the complicated skin structure, I implemented multiple shading features in the skin shader. Including using a specialized BRDF that has two specular lobes, detail maps that blends Albedo and Normal, color-bleeding AO, using powered AO as SO, etc.
 
+![SSS Comparesion](img/DuoSpec_Ref.png)
+![SSS Comparesion](img/DuoSpec_Compare.png)
+
 <video src="./demo3.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
 Your browser does not support the video tag.
 </video>
 
 ## Physically Based Eye Shading
 
+![SSS Comparesion](img/Eye_Refraction.png)
+
 In the eye shader, I implemented parallax mapping to simulate the refraction effect. AO and SO maps are supported to mimic the natural human structure. 
+
+![SSS Comparesion](img/Eye_AO.png)
 
 <video src="./demo4.mp4" controls="controls" width="640" height="320" autoplay="autoplay">
 Your browser does not support the video tag.
 </video>
+
+
+## GUI Development
+
+I built the GUI for the render feature and shaders. They are very user-friendly, we used to diffusion profile to manage the subsurface scattering effect. 
+Diffusion profile: Defines how far light travels below the surface. This affects the color bleeding and blurring behavior of Subsurface Scattering, as well as the color tint of Transmission.
+
+![SSS Comparesion](img/overview.jpg)
+
 
