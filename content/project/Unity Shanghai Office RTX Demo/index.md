@@ -9,7 +9,7 @@ title = "Unity Shanghai Office RTX Demo"
 # Project summary to display on homepage.
 summary = """
 Unity Shanghai Office Real-Time Ray Tracing Demo. Made with Unity HDRP.
-I am responsible for the environment lighting.  
+I am responsible for the environmental lighting.  
  """
  
 image_preview = "img/overview.png"
@@ -28,12 +28,12 @@ external_link = ""
 
 # Unity Shanghai Office Real-Time Ray Tracing Demo
 My duties including environment lighting, assets improvement, and Photometry.
-We rendered those scenes using Unity's HDRP with real-time ray tracing. To achieve photorealism, we measured the light energy distribution in the real world and reconstructed in our virtual office. I also helped our team to fix errors in models and textures. 
+We rendered these scenes using Unity's HDRP with real-time ray tracing. To achieve photorealism, we measured the light energy distribution in the real world and reconstructed in our virtual office. I also helped our team to fix errors in models and textures. 
 
 # Featured
 
-![Reflections & Shadows](img/SHO_01.png)
 ![Reflections & Shadows](img/SHO_02.png)
+![Reflections & Shadows](img/SHO_01.png)
 ![Reflections & Shadows](img/SHO_03.png)
 ![Reflections & Shadows](img/SHO_04.png)
 ![Reflections & Shadows](img/SHO_05.png)
@@ -57,8 +57,6 @@ RTX On:
 We measured light energy distribution in the real world and reconstructed in our virtual office.
 Measuring light energy using Lux meter:
  ![Reflections & Shadows](img/LuxMeter_03.jpeg)
- ![Reflections & Shadows](img/LuxMeter_04.jpeg)
- ![Reflections & Shadows](img/LuxMeter_05.jpeg)
  ![Reflections & Shadows](img/LuxMeter_01.jpeg)
  Lighting using  HRDP's Physical Light and Lux Meter units.
  ![Reflections & Shadows](img/Relight_01.png)
