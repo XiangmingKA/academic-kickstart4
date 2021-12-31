@@ -11,7 +11,7 @@ summary = """
  A horror game based on the mysterious story in our campus. Released on Steam! I was responsible for the gameplay programming based on blueprint and visual development based on Material Editor. 
  """
  
-image_preview = "img/overview.jpeg"
+image_preview = "img/overview.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["Game Development"]`
