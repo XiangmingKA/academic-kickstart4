@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Technical Artist
+role: Technical Artist & Programmer
 
 # Organizations/Affiliations
 organizations:
@@ -72,6 +72,6 @@ user_groups:
 - Visitors
 ---
 
-Xiangming is a graduate student at Carnegie Mellon University Entertainment Technology Center. He has demonstrated work experience in the video game industry as a Technical Artist. His expertise lies in the interdisciplinary area in the game industry, with emphasis on Computer Graphics, 3D Modeling, Lighting, and Texturing. 
+Xiangming is a graduate student at Carnegie Mellon University Entertainment Technology Center. He has demonstrated work experience in the video game industry as a Technical Artist and Programmer. His expertise lies in the interdisciplinary area in the game industry, with emphasis on Computer Graphics, 3D Modeling, Lighting, and Texturing. 
 
 With a Computer Graphics programming background, Xiangming has strong software engineering skills and troubleshooting ability. He had developed a set of skills in Render Feature and Shader development when working at Unity Technologies. Especially, he has a great understanding of Physically-Based Rendering principles in texturing, lighting, and shading. His duties also include tool development and assets improvements in DCC packages such as Maya, 3ds Max, and Substance. 
