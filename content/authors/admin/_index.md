@@ -73,7 +73,8 @@ user_groups:
 ---
 
 /***
-Please check out my new website: https://www.linkedin.com/in/xiangming-ka-72276118b/
+
+Please check out my new website: https://xiangmingka.wixsite.com/website
 
 ***/
 
